@@ -111,11 +111,7 @@ section{
 }
 /* what i do */
 
-.what-i-do{
-    
 
-
-}
 .skills-container{
     display: flex;
     gap: 24px;
@@ -168,4 +164,23 @@ section{
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+/* contact styles */
+.contact .sec-title{
+    text-align: left;
+}
+.contact{
+    display: flex;
+    gap:100px;
+    background:#FFF8F3;
+    padding: 130px 200px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contact a{
+    text-decoration: none;
 }
